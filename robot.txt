@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: /adminPanel/
+Disallow: /assets/
+Disallow: /partner/
+Sitemap: https://www.digimarkbd.com/sitemap.xml

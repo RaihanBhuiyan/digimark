@@ -1,0 +1,160 @@
+/*ABOUT*/
+
+.row-about{
+    padding-top: 1.5% !important;
+    padding-bottom: 1.5% !important;
+    margin:auto;
+    background-color: #ffffff;
+	background-image: url('../images/background/home-brand-bg-2.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+    text-align: center;
+    }
+
+.overlay-about{
+    background-color: rgba(102, 102, 102,0.3);min-height: 20vh;
+    text-align: center;padding-top: 1%;padding-bottom: 1%;
+}
+.overlay-about > .container > p{
+    margin-top: 1.5%;color: #ffffff;text-align: justify;
+}
+.about-item-container{
+    margin-right: 4% !important;
+    margin-left: 4% !important;
+}
+
+/*Categories*/
+
+.row-category{
+    width: 100% !important;
+    margin-top: 0% !important;
+    margin-bottom: 0% !important;
+    margin:auto;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    text-align: center;
+    }
+
+.category-img-container{
+    margin-top:2.5% !important;
+    margin-right: 4% !important;
+    margin-left: 4% !important;
+}
+
+.category-img-container > div > div{
+    text-align:center;padding:0.25%;
+}
+.category-img-container > div > div > a{text-decoration:none}
+#pcontainer-category-home > img{width:30% !important;}
+#pcontainer-category-home > h3{font-size:2vh;color:#000000!important;margin-top:2% !important;}
+#pcontainer-category-home{
+    min-height:100%;
+    overflow: hidden !important;
+    padding: auto !important;position: static; width:100%;
+    box-shadow: 0px 0px 5px rgba(102, 102, 153,1);padding-top:5%;padding-bottom:5%;
+}
+  
+#pcontainer-category-home a {
+  color:#f16724!important;
+  padding: 0.5%;
+  display: block;
+  transition: transform .1s;
+  margin-left: auto;
+  margin-right: auto;
+}
+#pcontainer-category-home:hover a {
+/*color: #f16724;*/
+  transform: scale(1.1);
+  transform-origin: 50% 50%;
+  text-decoration: none !important;
+}
+
+/*Brands*/
+
+
+.row-brand{
+    width: 100% !important;
+    margin-top: 0% !important;
+    margin-bottom: 0% !important;
+    margin:auto;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    text-align: center;
+    background-image: url('../images/background/home-brand-bg-2.jpg');
+    }
+
+.brand-img-container{
+    margin-top:2.5% !important;
+    margin-right: 4% !important;
+    margin-left: 4% !important;
+}
+.brand-img-container > div > div{
+    text-align:center;padding:0.25%;
+}
+    #pcontainer-brand-home{
+    overflow: hidden !important;
+    padding: auto !important;position: static; width:100%;
+    box-shadow: 0px 0px 5px rgba(102, 102, 153,1);padding-top:7%;padding-bottom:7%;
+  }
+  #pcontainer-brand-home img {
+    padding: 5%;
+  display: block;
+  transition: transform .4s;   /* smoother zoom */margin-left: auto;
+  margin-right: auto;
+  width:50%;height:100px;
+}
+#pcontainer-brand-home:hover img {
+  transform: scale(1.3);
+  transform-origin: 50% 50%;
+}
+
+/*Top-stories*/
+
+  
+.row-top-stories{
+    width: 100% !important;
+    margin-top: 0% !important;
+    margin-bottom: 0% !important;
+    margin:auto;
+    /*padding-top: 1.5%;*/
+    /*padding-bottom: 2.5%;*/
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    text-align: center;
+    box-shadow:0px 2px 2px 2px rgba(217, 217, 242,0.8);
+    /*color: #ffffff;
+    background-image: url('assets/images/background/home-categories-bg.jpg');
+    background-size: cover;*/
+    }
+.top-stories-container{
+    margin-top:2.5% !important;
+    margin-right: 4% !important;
+    margin-left: 4% !important;
+}    
+
+.top-stories-container  > div > div{
+    text-align:center;padding:0px !important;padding-left:5px !important;padding-right:5px !important;
+}
+    .item-container{
+    margin:0.5%;
+    padding:1.5%;
+    height:100% !important;
+    box-shadow: 0px 2px 2px 2px rgba(217, 217, 242,0.8);
+    display: flex;
+    flex-direction: column;
+    text-align:left;
+  }
+  .item-container > a{border-radius:0px;margin-top: auto;}
+  .item-container > img{
+      width:100% !important;
+  }
+ .top-story-label{
+     margin-top:1.5%;
+     margin-bottom:1.5%;
+     font-size:18px;
+ }
+ .top-story-title{
+     margin-top:1.5%;
+     margin-bottom:1.5%;
+     font-size:16px;
+ }

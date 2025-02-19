@@ -1,0 +1,54 @@
+.lib-panel {
+    margin: 5px;
+    padding: auto;
+    border-radius: 0px;
+}
+.lib-panel img {
+    width: 100%;
+    margin:auto;
+}
+.lib-img{
+    margin:0px;
+}
+.lib-panel,
+.lib-panel{
+    padding: 0;
+    background-color: #FFFFFF;
+    padding-bottom: 0%;
+}
+
+
+.lib-panel .lib-row {
+    padding: 0 20px 0 20px;
+}
+
+.lib-panel .lib-row.lib-header {
+    background-color: #FFFFFF;
+    font-size: 20px;
+    padding: 10px 20px 0 20px;
+    min-height: 20vh !important;
+}
+
+.lib-panel .lib-row.lib-header .lib-header-seperator {
+    height: 2px;
+    width: 26px;
+    background-color: #d9d9d9;
+    margin: 7px 0 7px 0;
+}
+
+.lib-panel .lib-row.lib-desc {
+    position: relative;
+    height: 100%;
+    display: block;
+    font-size: 13px;
+    padding-bottom: 2.5%;
+}
+
+.box-shadow {
+    -webkit-box-shadow:  2px 3px 8px rgba(102, 102, 153,1);
+    box-shadow:  2px 3px 8px rgba(102, 102, 153,1);
+}
+
+.no-padding {
+    padding: 0;
+}

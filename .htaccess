@@ -1,0 +1,16 @@
+DirectoryIndex routes.php
+RewriteEngine On
+
+ErrorDocument 404 /error.php
+
+RewriteCond %{REQUEST_FILENAME} -s [OR]
+RewriteCond %{REQUEST_FILENAME} -l [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^.*$ - [NC,L]
+RewriteRule ^.*$ routes.php [NC,L]
+
+<FilesMatch "\.pdf$">
+  header set x-robots-tag: noindex
+</FilesMatch>
+
+<?php //header(Link: <http://www.infilinkteco.com/>; rel="canonical");?>
